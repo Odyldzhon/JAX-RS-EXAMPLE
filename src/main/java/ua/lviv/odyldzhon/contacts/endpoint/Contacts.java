@@ -15,7 +15,7 @@ import javax.ws.rs.core.Response;
 
 import ua.lviv.odyldzhon.contacts.domain.InMemoryDB;
 import ua.lviv.odyldzhon.contacts.domain.entity.Person;
-import ua.lviv.odyldzhon.contacts.endpoint.exception.PersistentException;
+import ua.lviv.odyldzhon.contacts.exception.PersistentException;
 
 @Singleton
 @Path("contacts")
